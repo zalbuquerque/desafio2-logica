@@ -18,11 +18,10 @@ function calcularNivel(vitorias, derrotas) {
         nivel = "Imortal";
     }
 
-    // Retornando o resultado
     return `O Herói tem saldo de ${saldoVitorias} e está no nível de ${nivel}`;
 }
 
-// Laço para solicitar entradas do usuário
+// solicitar entradas do usuário
 for (let i = 0; i < 1; i++) {
     const vitorias = parseInt(prompt("Digite a quantidade de vitórias:"));
     const derrotas = parseInt(prompt("Digite a quantidade de derrotas:"));
